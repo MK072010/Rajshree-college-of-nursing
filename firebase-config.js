@@ -41,7 +41,7 @@ const firebaseConfig = {
    2. SUPABASE PROJECT CONFIG
 --------------------------------------------------------------- */
 const SUPABASE_URL = "https://qdwjibkqvpxmyaiothyh.supabase.co";
-const SUPABASE_ANON_KEY = "J/DujZXuyLufc+Z0K53p9orK3Vg2hLsQDzrnT7jOL9PIZfbXcgaaxUTtaaRvKLsB9IOMTdDRoZDkz9sbhueRfw==";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFkd2ppYmtxdnB4bXlhaW90aHloIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM2NzAxNDEsImV4cCI6MjA5OTI0NjE0MX0.r2CZgkbq_bggWt_nL7xvp4kYgBHG6ywQyjOWDYpRUaA";
 
 /* ---------------------------------------------------------------
    3. THE ONE ADMIN ACCOUNT ALLOWED TO LOG IN
