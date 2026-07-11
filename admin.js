@@ -483,7 +483,7 @@ async function saveHeroSlot(slotId, index) {
     showToast(`Hero slot ${index} saved.`, "success");
   } catch (err) {
     console.error(err);
-    showToast("Could not save this hero slot. Please try again.", "error");
+    showToast(`Could not save: ${err.message || err.error_description || JSON.stringify(err)}`, "error");
   } finally {
     saveBtn.disabled = false;
     hideLoading();
